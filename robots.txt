@@ -3,3 +3,4 @@ Disallow: /nbproject/
 Disallow: /old/
 Disallow: /plesk-stat/
 Disallow: /test/
+Disallow: /.git/
