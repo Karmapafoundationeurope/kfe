@@ -1,0 +1,516 @@
+/************* Project Karmapa Foundation **********************/
+
+/************************ General: Titels paragraph ... ***************************/
+
+body, div, ul, marquee {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+
+    font-size: 15px;
+    font-family: Garamond, sans-serif;
+    background-color: #4b0114;
+    background-image: -webkit-gradient(#4b0114,#830d01);
+    background-image: -webkit-linear-gradient(#4b0114,#830d01);
+    background-image: -moz-linear-gradient(#4b0114,#830d01);
+    background-image: -ms-linear-gradient(#4b0114,#830d01);
+    background-image: linear-gradient(#4b0114,#830d01);
+    background-attachment:fixed;
+
+}
+
+h1 {
+
+    font-family: calibri;    
+    font-size: 24px;
+    color: #7e0106;
+    clear:both;
+    margin-top: 20px;
+
+}
+
+h2 {
+
+    font-family: calibri; 
+    font-size:20px;
+}
+
+h3 {
+
+    font-family: calibri;
+    font-size: 15px;
+
+}
+
+.clear
+{
+    clear:both;
+}
+
+
+#global {
+
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+a img {
+
+    border: 0;
+
+}
+
+/***************** HEADER ***************************/
+
+#banner {
+
+    height: 130px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/karmapa-foundation-europe-header-image.png);
+    background-position: center top;
+}
+
+#menublock {
+
+    position: relative;  
+    /*background-color:white; */
+    height: 38px;
+    font-family: calibri;
+    font-size: 17px;
+
+}
+
+.current {
+
+    color:white;
+    background-color: #660000;
+
+}
+
+#Home {
+
+    width: 75px;
+}
+
+#KFE {
+
+    width: 50px;
+}
+
+#AboutTheKarmapa {
+
+    width: 160px;
+}
+
+#Donations {
+
+    width: 90px;
+}
+
+#Activities {
+
+    width: 130px;
+}
+#videos {
+
+    width: 90px;
+}
+#Links {
+
+    width: 155px;
+}
+
+#Community {
+
+    width: 134px;
+}
+
+.class160 {
+
+    width: 100%;
+
+}
+
+.class155 {
+
+    width: 155px;
+
+}
+
+.class130 {
+
+    width: 130px;
+}
+
+/****************** MENU ************************/
+
+#nav {
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    font-size: 14px;
+
+}
+
+#nav > li, #nav > li > a  {
+
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10x;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
+
+#nav li {
+
+    margin: 0 1px;
+    background: #ecae0b none repeat scroll 0% 50%;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 500;
+
+}
+
+
+#nav li a {
+
+    padding: 8px 5px 0;
+    display: block;
+    height: 30px;
+    font-weight: 590;
+    text-decoration: none;
+    text-align: center;
+    color: black;   
+
+}
+
+#nav > li a:hover {
+
+    color: white;
+    background: #660000 none repeat scroll 0% 50%;
+
+
+
+}
+
+#nav li a:hover {
+
+    color: white;
+    background: #660000 none repeat scroll 0% 50%;
+
+}
+
+#nav li a:visited {
+
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10x;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+#nav ul {
+
+    margin: 0 0 0 -1px;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    display: none;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+
+}
+
+#nav ul li {
+
+    border-top: 1px solid #ffffff;
+    float: left;
+
+}
+
+#nav ul a {
+    padding: 8px 5px;
+    display: block;
+    height: auto;
+    color: black;
+}
+
+/*******************  CONTENT ********************/
+
+#content {
+
+    position: relative;  
+    background-color:white;
+    padding: 15px;
+    padding-left: 45px;
+    min-height: 500px;
+
+}
+
+.didascalia {
+
+    font-family: Garamond;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 590;
+    color: #707061;
+
+}
+
+/**************** FOOTER ********************/
+
+#footer {
+
+    background-color: #4b0114;
+}
+
+#footer_stroke img{
+
+    background-color: white; 
+    height:17px; 
+    width:100%;
+
+}
+
+#footer_marquee {
+
+
+    position: relative; 
+    height:40px; 
+
+}   
+
+marquee {
+
+    position: absolute; 
+    width:820px; 
+    left:40px; 
+    top: 0px;
+    height:40px;  
+    direction:left;    
+    font-family: sans-serif;
+    font-size: 24px;
+    border: 0px;
+    background-color: #4b0114;
+
+}
+
+.labelWhite {
+
+    color:  white; 
+    font-style: italic;
+
+}
+
+.labelChenno {
+
+    color:  #ecae0b;
+
+}
+
+#crownLeft {
+
+    position: absolute; 
+    width:40px; 
+    height: 40px;  
+    left: 5px; 
+    top:0px;
+
+}
+
+#crownRight {
+
+    position: absolute; 
+    width:40px; 
+    height: 40px; 
+    left:865px; 
+    top:0px;   
+
+}
+
+/***************** PAGES ***************************/
+
+.child img {
+
+    float: right;
+    margin-left: 1em;    
+
+}
+
+.child-left {
+
+    margin-left: 0px;
+}
+
+.child-left img {
+
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+
+
+}
+
+#objectives li {
+
+    font-size: 100%;
+    font-style: italic;
+    color: black;
+    list-style-type: none;
+    list-style-position: outside;
+    background-image: url(../img/thumb_puce_1.gif);
+    background-repeat: no-repeat;
+    padding-left: 45px;
+    margin-top: 20px;
+
+}
+
+#karmapaLinks li {
+
+    font-size: 110%;
+    font-style: italic;
+    color: black;
+    list-style-type: none;
+    list-style-position: outside;
+    background-image: url(../img/thumb_puce_1.gif);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    margin-top: 20px;    
+
+}
+
+#sub0bjectives li {
+
+    background-image: url(../img/thumb_puce.gif);    
+
+}
+
+#map {
+
+    position: relative; 
+    left:20%; 
+    padding: 15px;
+
+}
+
+/***************** MESSAGES HOME PAGE ******************/
+
+.messagedate {
+
+    color: #707061;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+
+}
+
+.messagetitle {   
+
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+    font-variant:small-caps;
+
+}
+
+.messagereadmore {
+
+    font-size: 13px;
+    color: #7e0106;
+    font-style: italic;
+
+}
+
+.messagecontent {
+
+    font-family: Garamond;
+    font-size: 18px;
+    color: #250101;
+    margin-left: 25px;
+
+}
+
+@font-face{
+    font-family:'Shonar Bangla';
+    src: url('../fonts/shonar-webfont.woff') format('woff');
+}
+
+a {text-decoration: none}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#accordion {
+    font-family: 'Shonar Bangla' Arial, Helvetica, sans-serif; width:  700px; margin: -25px auto; 
+}
+
+/*#a00505 <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-accordion-header-active ui-state-active ui-corner-top ui-accordion-icons" role="tab" id="ui-accordion-accordion-header-0" aria-controls="ui-accordion-accordion-panel-0" aria-selected="true" tabindex="0">
+<span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>Austria</h3>*/
+
+
+#accordion h3 {    
+    font-size:20px; color: #311a1a; font-weight: bolder; padding-top: 5px;padding-bottom: 5px;
+}
+#accordion div {
+    color:#611515;  
+}
+#accordion p span:first-of-type {   
+    font-weight: bolder;   
+} 
+#accordion div span a {    
+    color:#611515;
+    font-weight: bolder;
+}
+#accordion h3 {
+
+    background-color: #DFBC2D;/*#e6a169;/*#d87070;/*#ecae0b;*/
+    color: #334544;
+    font-style: italic;
+
+}
+#accordion div {    
+    background-color: #dcc2c2;
+}
+
+.social-list {
+
+    overflow:hidden;
+    padding: 0 0 20px;
+    margin: 30px;
+    list-style: none;
+
+}
+
+.current {
+
+    color:white;
+    background-color: #660000;
+}
+
+.news_sli{position:relative;margin:0 auto 55px; text-align:center;width:600px;}
+.news_sli li{ width:100%; list-style: none}
+.news_sli li p{ font-size:15px; color:#555; line-height:150%; text-align:justify;}
+
+.sli_dots{ width:100%; text-align:center;}
+.sli_dots a{display:inline-block; width:18px; height:18px; background:url(../img/bg-pagination.gif) 0 0 no-repeat; font-size:0; margin:0 4px;}
+.sli_dots a.activeSlide{ background-position:0 -18px;} 
+
+h2.h2_type2{ color: #232323; margin-bottom:50px; font-weight: normal; font-size: 24px; margin-top: 40px;font-family: "Shonar Bangla", Arial, Helvetica, sans-serif; text-align:center;}

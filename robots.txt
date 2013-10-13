@@ -1,0 +1,5 @@
+User-Agent: *    
+Disallow: /nbproject/
+Disallow: /old/
+Disallow: /plesk-stat/
+Disallow: /test/

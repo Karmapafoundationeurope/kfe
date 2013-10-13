@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <!-- Mirrored from karmapafoundation.eu/kfe.html by HTTrack Website Copier/3.x [XR&CO'2010], Sun, 07 Apr 2013 08:35:56 GMT -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style type="text/css">
+
+            #contenant {
+                width: 850px;
+                padding-bottom: 1em;
+                margin: 0 auto;
+                text-align: left;
+            }
+            h1 {
+                padding-top: 0;
+                margin-top: 0;
+                border-top: solid 14px #666;
+            }
+            h2 {
+                margin-bottom: 0;
+                border-bottom: solid 7px #aaa;
+                font-variant: small-caps;
+            }
+            address {
+                padding-top: 1em;
+                border-top: solid 1px #aaa;
+            }
+
+            /* styles du formulaire */
+            /* étape 1 */
+            form {
+                padding: 1em 0 1em;
+                margin-top: 0;
+                border: solid 2px #aaa;
+                border-top: none;
+                background-color: #f5f5f5;
+                color: #000;
+                text-align: center;
+            }
+            /* étape 2 */
+            fieldset {
+                width: 90%;
+                padding: 5px;
+                margin: 0 auto;
+                border: solid 3px #666;
+                text-align: left;
+            }
+            legend {
+                padding: 0 10px;
+                font: normal small-caps 900 1em Geneva, Helvetica, Arial, sans-serif;
+            }
+            /* étape 3 */
+            textarea {
+                float: left;
+                width: 50%;
+                height: 16em;
+                margin: 10px 0 10px 10px;
+                background-color: #f7f7f7;
+                color: #000;
+            }
+            /* étape 4 */
+            fieldset p {
+                float: right;
+                width: 40%;
+                padding: 10px 5px;
+                margin: 10px 10px 10px 0;
+                background-color: #eee;
+                color: #000;
+            }
+            textarea, fieldset p {
+                border: solid 2px #666;
+            }
+            fieldset p.notice {
+                font-size: 0.8em;
+            }
+            /* étape 5 */
+            form hr {
+                clear: both;
+                height: 0;
+                padding: 0;
+                margin: 0;
+                visibility: hidden;
+            }
+            /* étape 6 */
+            label {
+                display: block;
+                padding: 4px;
+                cursor: pointer;
+                background-color: inherit;
+                color: #666;
+            }
+            label:hover {
+                text-decoration: underline;
+                background-color: inherit;
+                color: #000;
+            }
+            /* étape 7 */
+            #bcc {
+                margin: 0;
+            }
+            #nom, #mail {
+                display: block;
+                width: 100%;
+                border: solid 1px #aaa;
+                background-color: #f5f5f5;
+                color: #000;
+            }
+            #submission {
+                width: 35%;
+                height: 2em;
+                margin: 2em auto 0;
+                border: solid 2px #666;
+                font-weight: 900;
+                background-color: #fff;
+                color: #666;
+            }
+            /* étape 8 */
+            textarea:focus, #nom:focus, #mail:focus, #submission:focus {
+                border-color: #000;
+                background-color: #fff;
+                color: #000;
+            }
+            textarea:hover, #nom:hover, #mail:hover, #submission:hover {
+                border-color: #000;
+            }
+            /**/
+        </style>        
+
+
+        <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="js/kfe.js"></script>
+        <script type="text/javascript">
+
+
+            function sendMail() {
+                var link = "mailto:jeanpierre.indot@gmail.com"
+                        + "?cc=jp.indot@gmail.com"
+                        + "&subject=" + escape("This is my subject")
+                        + "&body=" + escape(document.getElementById('myText').value)
+                        ;
+
+                window.location.href = link;
+            }
+
+
+
+
+        </script>
+
+
+        <title>KFE - Karmapa Foundation Europe </title>
+
+    </head>
+    <body  onload="setWhereYouAre();" >
+        
+
+        <div id="banner"></div>
+
+        
+
+        
+
+        <div id="menublock" >
+
+            
+
+            <div>
+                <ul id="menu" style="height: 38px;"> 
+                    <li id="Home" style=" width: 75px;"><a href="index.html?q=Home" >Home</a></li>
+                    <li  id="AboutTheKarmapa" style="width: 160px;"><a href="karmapas.html?q=ATK" >About the Karmapa</a>
+                        <ul style="display: none;">
+                            <li id="aboutthekarmapasub" style="width: 160px;" ><a href="karmapas.html?q=ATK">About the KARMAPAs</a> </li>
+                            <li id="aboutthekarmapasub" style="width: 160px;" ><a href="previous-karmapas.html?q=ATK">The previous KARMAPAs</a> </li>
+                            <li id="aboutthekarmapasub" style="width: 160px;" ><a href="17th-karmapa.html?q=ATK">The 17th KARMAPA </a> </li>
+                        </ul>
+                    </li>
+                    <li id="KFE" style="width: 50px;"><a href="kfe.html?q=K">KFE</a>
+                        <ul style="display: none;">
+                            <li style="width: 160px;"><a href="kfe-board-of-trustees.html?q=K">Board of Trustees</a> </li>
+                            <li style="width: 160px;"><a href="kfe-objectives.html?q=K">Objectives</a> </li>
+                            <li style="width: 160px;"><a href="kfe-contact-details.html?q=K">Contact details</a> </li>
+                            <li style="width: 160px;"><a href="kfe-acknowledgements.html?q=K">Acknowledgements</a> </li>
+                            <li style="width: 160px;"><a href="kfe-copyrights.html?q=K">Copyright</a> </li>
+                        </ul>
+                    </li>
+                    <li id="Donations" style="width: 90px;" class="last"><a href="karmapa-donations.html?q=D">Donations</a></li>
+                    <li id="Activities" style="width: 130px;" class="last"><a href="karmapa-activities.html?q=A">MajorActivities</a>                                    
+                        <ul style="display: none;">
+                            <li style="width: 130px;"><a href="karmapa-activities-visits.html?q=A">Visits</a>  </li>                                   
+                            <li style="width: 130px;"><a href="karmapa-activities-teachings.html?q=A">Teachings</a> </li>                                   
+                            <li style="width: 130px;"><a href="karmapa-activities-projects.html?q=A">Projects</a> </li>                                    
+                        </ul>
+                    </li>
+                    <li id="videos" style="width: 90px;" class="last"><a href="karmapa-videos-webcasts.html?q=W">Webcasts</a></li>
+                    <li id="Links" class="last" style="width: 155px;"><a href="kagyu-links.html?q=L">Kagyu & Other Links</a>
+                        <ul style="display: none;">
+                            <li style="width: 155px;"><a href="kagyu-links-centres-europe.html?q=L">Centres in Europe</a> </li>                                    
+                            <li style="width: 155px;"><a href="kagyu-links-other.html?q=L">Worldwide</a> </li>                              
+                        </ul>
+                    </li>
+                    <li id="Community" class="last" style="width: 134px;"><a href="kfe-community.html?q=C">KFE Community</a></li>
+                </ul>
+            </div>
+
+            
+
+            <div id="contenant">
+                <h1>Karmapa Foundation</h1>
+
+                <h2>Contact Us</h2>
+                <form action="mailto:jeanpierre.indot@gmail.com" method="post">
+                    <fieldset id="form-quoi">
+                        <legend>Type your message</legend>
+
+                        <textarea cols="30" rows="10" id="myText"></textarea>
+
+                        <p>
+                            <label for="bcc">
+                                <input type="checkbox" id="bcc" name="bcc" /> 
+                                I want to receive a copy of my message.
+                            </label>
+
+                            <label for="nom" class="gauche">
+                                your name&nbsp;: 
+                                <input type="text" id="nom" name="nom" value="" />
+                            </label>
+
+                            <label for="mail" class="gauche">
+                                your mail&nbsp;: 
+                                <input type="text" id="mail" name="mail" value="" />
+                            </label>
+                        </p>
+
+                        <hr />
+                    </fieldset>
+                    <p>
+                        <input type="submit" value="Send mail." id="submission" />
+                    </p>
+                </form>
+                <p>
+                    If you want, you can always write a mail to this address or use your preferred email client to send us a mail.
+                </p>
+                <address>
+                    Address of KFE Headquarters:</br> 
+                    Karmapa  Foundation Europe<br>
+                    23,  Rue d'Edimbourg<br>
+                    1050,  Brussels<br>
+                    BELGIUM</br></br>
+                    General Secretary - Karmapa Foundation&nbsp;: <a href="mailto:office@karmapafoundation.eu" class="mel">Karmapa Foundation</a><br />
+                    Webmestre&nbsp;: <a href="mailto:" class="mel">Coming soon</a><br />
+                </address>
+            </div>            
+
+
+
+            <div class="child-left" style="padding: 15px;"> 
+
+                <p ><strong>How  to visit us</strong><br>
+                    <strong>Closer Metro  Station:</strong> Porte de Namur<br>
+                    <strong>Map</strong><br>
+                    <img src="kfecontactdetails_clip_image002.jpg" alt="" width="516" height="380"><br>
+                    <strong>View  of the entrance (point A of the above map)</strong><br>
+
+            </div>
+
+            <div id="elasticDiv"></div> 
+
+            <!--Footer-->
+
+            
+
+            <div style="background-color: #4b0114;">
+                <img src="footer_stroke.png" style="background-color: white; height:17px; width:100%;">
+            </div>
+
+            <div style="position: relative; height:40px; background-color: #4b0114;" >
+
+                <div id="crownLeft" >
+                    <img src="crown.png"> 
+                </div>
+                <div id="marquee" >
+	   	    <marquee scrollamount=1>
+                            <label class="labelChenno"> ... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Karmapa Chenno &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+                            <label class="labelChenno"> ... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Karmapa Chenno &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+                            <label class="labelChenno"> ... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Karmapa Chenno &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+                            <label class="labelChenno"> ... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Karmapa Chenno &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+                            <label class="labelChenno"> ... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Karmapa Chenno &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+                            <label class="labelChenno"> ... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Karmapa Chenno &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...</label> 
+                    </marquee>
+                </div>
+                <div id="crownRight" >
+                    <img src="crown.png">
+
+                </div>    
+            </div>
+
+           
+
+        </div>
+        
+
+    </body>
+</html>
